@@ -1,0 +1,395 @@
+[0.000000] (-) TimerEvent: {}
+[0.000888] (smart_car) JobQueued: {'identifier': 'smart_car', 'dependencies': OrderedDict()}
+[0.000997] (smartcar_msgs) JobQueued: {'identifier': 'smartcar_msgs', 'dependencies': OrderedDict()}
+[0.001075] (smart_car) JobStarted: {'identifier': 'smart_car'}
+[0.030903] (smartcar_msgs) JobStarted: {'identifier': 'smartcar_msgs'}
+[0.041265] (smart_car) JobProgress: {'identifier': 'smart_car', 'progress': 'cmake'}
+[0.042050] (smart_car) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/ros2_ws/src/smart_car', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/install/smart_car'], 'cwd': '/home/ros2/ros2_ws/build/smart_car', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('GIT_ASKPASS', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ed214bbe-36d4-4277-bd5b-13a4d1a1ad70.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('NAME', 'LAPTOP-2KK2I5AE'), ('WSL_INTEROP', '/run/WSL/26702_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/home/ros2/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/bin/remote-cli:/home/ros2/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/MATLAB/runtime/win64:/mnt/c/MATLAB/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/FATHYM/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/FATHYM/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/FATHYM/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/FATHYM/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/FATHYM/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ros2/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-54850e98de.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2/ros2_ws/build/smart_car'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.052807] (smartcar_msgs) JobProgress: {'identifier': 'smartcar_msgs', 'progress': 'cmake'}
+[0.054652] (smartcar_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/ros2_ws/src/smartcar_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/install/smartcar_msgs'], 'cwd': '/home/ros2/ros2_ws/build/smartcar_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('GIT_ASKPASS', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ed214bbe-36d4-4277-bd5b-13a4d1a1ad70.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('NAME', 'LAPTOP-2KK2I5AE'), ('WSL_INTEROP', '/run/WSL/26702_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/home/ros2/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/bin/remote-cli:/home/ros2/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/MATLAB/runtime/win64:/mnt/c/MATLAB/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/FATHYM/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/FATHYM/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/FATHYM/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/FATHYM/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/FATHYM/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ros2/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-54850e98de.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2/ros2_ws/build/smartcar_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099212] (-) TimerEvent: {}
+[0.200194] (-) TimerEvent: {}
+[0.300788] (-) TimerEvent: {}
+[0.401504] (-) TimerEvent: {}
+[0.413672] (smartcar_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.414145] (smart_car) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.501721] (-) TimerEvent: {}
+[0.602439] (-) TimerEvent: {}
+[0.702916] (-) TimerEvent: {}
+[0.803439] (-) TimerEvent: {}
+[0.904048] (-) TimerEvent: {}
+[1.004659] (-) TimerEvent: {}
+[1.036629] (smartcar_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.037418] (smart_car) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.104838] (-) TimerEvent: {}
+[1.205344] (-) TimerEvent: {}
+[1.306017] (-) TimerEvent: {}
+[1.383918] (smart_car) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.389424] (smartcar_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.406231] (-) TimerEvent: {}
+[1.506821] (-) TimerEvent: {}
+[1.569152] (smartcar_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.569569] (smart_car) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.580302] (smartcar_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.580882] (smart_car) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.587597] (smart_car) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.587905] (smartcar_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.589568] (smart_car) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.589901] (smartcar_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.595279] (smart_car) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.595820] (smartcar_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.607077] (-) TimerEvent: {}
+[1.707618] (-) TimerEvent: {}
+[1.793868] (smart_car) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.800517] (smartcar_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.806280] (smart_car) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.806867] (smart_car) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.807708] (smart_car) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.808005] (-) TimerEvent: {}
+[1.816054] (smartcar_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.816639] (smartcar_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.817641] (smartcar_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.853811] (smart_car) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.854786] (smartcar_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.908280] (-) TimerEvent: {}
+[2.008906] (-) TimerEvent: {}
+[2.087854] (smartcar_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.088351] (smart_car) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.109186] (-) TimerEvent: {}
+[2.181511] (smart_car) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.182025] (smartcar_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.209387] (-) TimerEvent: {}
+[2.223771] (smartcar_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.309580] (-) TimerEvent: {}
+[2.375141] (smart_car) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.409778] (-) TimerEvent: {}
+[2.493987] (smartcar_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.502938] (smartcar_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.505193] (smart_car) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.505605] (smart_car) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.505757] (smart_car) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.507217] (smart_car) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.509507] (smart_car) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.509780] (-) TimerEvent: {}
+[2.511233] (smart_car) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.514363] (smart_car) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.514661] (smart_car) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.515766] (smart_car) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.516600] (smartcar_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.520656] (smart_car) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.534608] (smart_car) StdoutLine: {'line': b'-- Generating done\n'}
+[2.537120] (smart_car) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/ros2_ws/build/smart_car\n'}
+[2.548182] (smart_car) CommandEnded: {'returncode': 0}
+[2.549847] (smart_car) JobProgress: {'identifier': 'smart_car', 'progress': 'build'}
+[2.553176] (smartcar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.555646] (smart_car) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ros2_ws/build/smart_car', '--', '-j16', '-l16'], 'cwd': '/home/ros2/ros2_ws/build/smart_car', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('GIT_ASKPASS', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ed214bbe-36d4-4277-bd5b-13a4d1a1ad70.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('NAME', 'LAPTOP-2KK2I5AE'), ('WSL_INTEROP', '/run/WSL/26702_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/home/ros2/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/bin/remote-cli:/home/ros2/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/MATLAB/runtime/win64:/mnt/c/MATLAB/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/FATHYM/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/FATHYM/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/FATHYM/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/FATHYM/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/FATHYM/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ros2/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-54850e98de.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2/ros2_ws/build/smart_car'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.581273] (smartcar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.610063] (-) TimerEvent: {}
+[2.632195] (smart_car) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_smart_car\n'}
+[2.655660] (smartcar_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.710294] (-) TimerEvent: {}
+[2.810972] (-) TimerEvent: {}
+[2.911666] (-) TimerEvent: {}
+[3.000890] (smart_car) StdoutLine: {'line': b'running egg_info\n'}
+[3.001579] (smart_car) StdoutLine: {'line': b'creating smart_car.egg-info\n'}
+[3.002574] (smart_car) StdoutLine: {'line': b'writing smart_car.egg-info/PKG-INFO\n'}
+[3.003100] (smart_car) StdoutLine: {'line': b'writing dependency_links to smart_car.egg-info/dependency_links.txt\n'}
+[3.003711] (smart_car) StdoutLine: {'line': b'writing top-level names to smart_car.egg-info/top_level.txt\n'}
+[3.004040] (smart_car) StdoutLine: {'line': b"writing manifest file 'smart_car.egg-info/SOURCES.txt'\n"}
+[3.007769] (smart_car) StdoutLine: {'line': b"reading manifest file 'smart_car.egg-info/SOURCES.txt'\n"}
+[3.008995] (smart_car) StdoutLine: {'line': b"writing manifest file 'smart_car.egg-info/SOURCES.txt'\n"}
+[3.011952] (-) TimerEvent: {}
+[3.062670] (smart_car) StdoutLine: {'line': b'Built target ament_cmake_python_build_smart_car_egg\n'}
+[3.078785] (smart_car) CommandEnded: {'returncode': 0}
+[3.112148] (-) TimerEvent: {}
+[3.118564] (smart_car) JobProgress: {'identifier': 'smart_car', 'progress': 'install'}
+[3.130458] (smartcar_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.134002] (smart_car) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ros2_ws/build/smart_car'], 'cwd': '/home/ros2/ros2_ws/build/smart_car', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('GIT_ASKPASS', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ed214bbe-36d4-4277-bd5b-13a4d1a1ad70.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('NAME', 'LAPTOP-2KK2I5AE'), ('WSL_INTEROP', '/run/WSL/26702_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/home/ros2/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/bin/remote-cli:/home/ros2/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/MATLAB/runtime/win64:/mnt/c/MATLAB/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/FATHYM/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/FATHYM/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/FATHYM/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/FATHYM/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/FATHYM/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ros2/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-54850e98de.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2/ros2_ws/build/smart_car'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.142525] (smart_car) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.143237] (smart_car) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.145001] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/pythonpath.sh\n'}
+[3.158661] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/pythonpath.dsv\n'}
+[3.173116] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/local/lib/python3.10/dist-packages/smart_car-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.184852] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/local/lib/python3.10/dist-packages/smart_car-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.196939] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/local/lib/python3.10/dist-packages/smart_car-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.208563] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/local/lib/python3.10/dist-packages/smart_car-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.212334] (-) TimerEvent: {}
+[3.221193] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/local/lib/python3.10/dist-packages/smart_car/__init__.py\n'}
+[3.234773] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/libs/smart_car/vehicle_interface.py\n'}
+[3.247721] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/libs/smart_car/joint_state_publisher.py\n'}
+[3.261167] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/libs/smart_car/joy_twist.py\n'}
+[3.273145] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/libs/smart_car/wheel_odom.py\n'}
+[3.286548] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/lib/smart_car/wheel_odom.py\n'}
+[3.301616] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf/imu_sensor.urdf.xacro\n'}
+[3.312549] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf/lidar_sensor.urdf.xacro\n'}
+[3.312837] (-) TimerEvent: {}
+[3.325994] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/urdf/smartcar.urdf.xacro\n'}
+[3.339478] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/display.launch.py\n'}
+[3.353154] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/launch.py\n'}
+[3.364060] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/launch/smartcar.launch.py\n'}
+[3.376881] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/world/smalltown.world\n'}
+[3.389871] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/ament_index/resource_index/package_run_dependencies/smart_car\n'}
+[3.402695] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/ament_index/resource_index/parent_prefix_path/smart_car\n'}
+[3.413093] (-) TimerEvent: {}
+[3.414610] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/ament_prefix_path.sh\n'}
+[3.430155] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/ament_prefix_path.dsv\n'}
+[3.442720] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/path.sh\n'}
+[3.454112] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/environment/path.dsv\n'}
+[3.466144] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.bash\n'}
+[3.478417] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.sh\n'}
+[3.490159] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.zsh\n'}
+[3.505224] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/local_setup.dsv\n'}
+[3.513295] (-) TimerEvent: {}
+[3.520640] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/package.dsv\n'}
+[3.535966] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/ament_index/resource_index/packages/smart_car\n'}
+[3.550462] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/cmake/smart_carConfig.cmake\n'}
+[3.564777] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/cmake/smart_carConfig-version.cmake\n'}
+[3.580752] (smart_car) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smart_car/share/smart_car/package.xml\n'}
+[3.613476] (-) TimerEvent: {}
+[3.642589] (smart_car) StdoutLine: {'line': b"Listing '/home/ros2/ros2_ws/install/smart_car/local/lib/python3.10/dist-packages/smart_car'...\n"}
+[3.643137] (smart_car) StdoutLine: {'line': b"Compiling '/home/ros2/ros2_ws/install/smart_car/local/lib/python3.10/dist-packages/smart_car/__init__.py'...\n"}
+[3.654209] (smart_car) CommandEnded: {'returncode': 0}
+[3.713795] (-) TimerEvent: {}
+[3.717418] (smart_car) JobEnded: {'identifier': 'smart_car', 'rc': 0}
+[3.808563] (smartcar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.813967] (-) TimerEvent: {}
+[3.914439] (-) TimerEvent: {}
+[4.014929] (-) TimerEvent: {}
+[4.049645] (smartcar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.115107] (-) TimerEvent: {}
+[4.215755] (-) TimerEvent: {}
+[4.237995] (smartcar_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.240666] (smartcar_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.315994] (-) TimerEvent: {}
+[4.416801] (-) TimerEvent: {}
+[4.517306] (-) TimerEvent: {}
+[4.617804] (-) TimerEvent: {}
+[4.718380] (-) TimerEvent: {}
+[4.735360] (smartcar_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[4.736149] (smartcar_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.736389] (smartcar_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.736565] (smartcar_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.767359] (smartcar_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.818604] (-) TimerEvent: {}
+[4.910877] (smartcar_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.918794] (-) TimerEvent: {}
+[4.943307] (smartcar_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.945567] (smartcar_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.952532] (smartcar_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.019017] (-) TimerEvent: {}
+[5.042448] (smartcar_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[5.046891] (smartcar_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/ros2_ws/build/smartcar_msgs\n'}
+[5.062874] (smartcar_msgs) CommandEnded: {'returncode': 0}
+[5.064085] (smartcar_msgs) JobProgress: {'identifier': 'smartcar_msgs', 'progress': 'build'}
+[5.065793] (smartcar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ros2_ws/build/smartcar_msgs', '--', '-j16', '-l16'], 'cwd': '/home/ros2/ros2_ws/build/smartcar_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('GIT_ASKPASS', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ed214bbe-36d4-4277-bd5b-13a4d1a1ad70.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('NAME', 'LAPTOP-2KK2I5AE'), ('WSL_INTEROP', '/run/WSL/26702_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/home/ros2/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/bin/remote-cli:/home/ros2/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/MATLAB/runtime/win64:/mnt/c/MATLAB/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/FATHYM/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/FATHYM/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/FATHYM/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/FATHYM/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/FATHYM/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ros2/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-54850e98de.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2/ros2_ws/build/smartcar_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.117364] (smartcar_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.119182] (-) TimerEvent: {}
+[5.133581] (smartcar_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.148619] (smartcar_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_smartcar_msgs\n'}
+[5.219391] (-) TimerEvent: {}
+[5.320082] (-) TimerEvent: {}
+[5.420597] (-) TimerEvent: {}
+[5.521215] (-) TimerEvent: {}
+[5.572176] (smartcar_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[5.573973] (smartcar_msgs) StdoutLine: {'line': b'creating smartcar_msgs.egg-info\n'}
+[5.575867] (smartcar_msgs) StdoutLine: {'line': b'writing smartcar_msgs.egg-info/PKG-INFO\n'}
+[5.576747] (smartcar_msgs) StdoutLine: {'line': b'writing dependency_links to smartcar_msgs.egg-info/dependency_links.txt\n'}
+[5.577733] (smartcar_msgs) StdoutLine: {'line': b'writing top-level names to smartcar_msgs.egg-info/top_level.txt\n'}
+[5.578361] (smartcar_msgs) StdoutLine: {'line': b"writing manifest file 'smartcar_msgs.egg-info/SOURCES.txt'\n"}
+[5.584142] (smartcar_msgs) StdoutLine: {'line': b"reading manifest file 'smartcar_msgs.egg-info/SOURCES.txt'\n"}
+[5.585922] (smartcar_msgs) StdoutLine: {'line': b"writing manifest file 'smartcar_msgs.egg-info/SOURCES.txt'\n"}
+[5.610755] (smartcar_msgs) StdoutLine: {'line': b'[  6%] Built target smartcar_msgs__cpp\n'}
+[5.621468] (-) TimerEvent: {}
+[5.629430] (smartcar_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.630186] (smartcar_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.630376] (smartcar_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.657380] (smartcar_msgs) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_build_smartcar_msgs_egg\n'}
+[5.658457] (smartcar_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/smartcar_msgs__rosidl_generator_c.dir/rosidl_generator_c/smartcar_msgs/msg/detail/status__functions.c.o\x1b[0m\n'}
+[5.721648] (-) TimerEvent: {}
+[5.794442] (smartcar_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libsmartcar_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[5.821910] (-) TimerEvent: {}
+[5.922514] (-) TimerEvent: {}
+[5.969905] (smartcar_msgs) StdoutLine: {'line': b'[ 22%] Built target smartcar_msgs__rosidl_generator_c\n'}
+[5.985447] (smartcar_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.986838] (smartcar_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.987451] (smartcar_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.022734] (-) TimerEvent: {}
+[6.030392] (smartcar_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/smartcar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/smartcar_msgs/msg/status__type_support.cpp.o\x1b[0m\n'}
+[6.081439] (smartcar_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/smartcar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/smartcar_msgs/msg/detail/status__type_support.cpp.o\x1b[0m\n'}
+[6.090963] (smartcar_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/smartcar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/smartcar_msgs/msg/detail/dds_fastrtps/status__type_support.cpp.o\x1b[0m\n'}
+[6.122908] (-) TimerEvent: {}
+[6.223456] (-) TimerEvent: {}
+[6.324091] (-) TimerEvent: {}
+[6.399293] (smartcar_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/smartcar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/smartcar_msgs/msg/status__type_support.cpp.o\x1b[0m\n'}
+[6.424309] (-) TimerEvent: {}
+[6.427127] (smartcar_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/smartcar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/smartcar_msgs/msg/detail/status__type_support_c.cpp.o\x1b[0m\n'}
+[6.431725] (smartcar_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/smartcar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/smartcar_msgs/msg/detail/status__type_support.c.o\x1b[0m\n'}
+[6.454654] (smartcar_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libsmartcar_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.495116] (smartcar_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libsmartcar_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.524516] (-) TimerEvent: {}
+[6.600672] (smartcar_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libsmartcar_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.624704] (-) TimerEvent: {}
+[6.649574] (smartcar_msgs) StdoutLine: {'line': b'[ 61%] Built target smartcar_msgs__rosidl_typesupport_c\n'}
+[6.666394] (smartcar_msgs) StdoutLine: {'line': b'[ 61%] Built target smartcar_msgs__rosidl_typesupport_introspection_c\n'}
+[6.724951] (-) TimerEvent: {}
+[6.769931] (smartcar_msgs) StdoutLine: {'line': b'[ 61%] Built target smartcar_msgs__rosidl_typesupport_cpp\n'}
+[6.798819] (smartcar_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libsmartcar_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.822240] (smartcar_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libsmartcar_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.825136] (-) TimerEvent: {}
+[6.925664] (-) TimerEvent: {}
+[6.989991] (smartcar_msgs) StdoutLine: {'line': b'[ 67%] Built target smartcar_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.994524] (smartcar_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libsmartcar_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.025899] (-) TimerEvent: {}
+[7.095126] (smartcar_msgs) StdoutLine: {'line': b'[ 70%] Built target smartcar_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[7.126087] (-) TimerEvent: {}
+[7.226859] (-) TimerEvent: {}
+[7.239036] (smartcar_msgs) StdoutLine: {'line': b'[ 70%] Built target smartcar_msgs__rosidl_typesupport_fastrtps_c\n'}
+[7.267319] (smartcar_msgs) StdoutLine: {'line': b'[ 70%] Built target smartcar_msgs\n'}
+[7.294459] (smartcar_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.327044] (-) TimerEvent: {}
+[7.427529] (-) TimerEvent: {}
+[7.528005] (-) TimerEvent: {}
+[7.628528] (-) TimerEvent: {}
+[7.729113] (-) TimerEvent: {}
+[7.811225] (smartcar_msgs) StdoutLine: {'line': b'[ 74%] Built target smartcar_msgs__py\n'}
+[7.829342] (-) TimerEvent: {}
+[7.838346] (smartcar_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/smartcar_msgs__rosidl_generator_py.dir/rosidl_generator_py/smartcar_msgs/msg/_status_s.c.o\x1b[0m\n'}
+[7.929555] (-) TimerEvent: {}
+[8.030059] (-) TimerEvent: {}
+[8.130795] (-) TimerEvent: {}
+[8.131412] (smartcar_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/smartcar_msgs/libsmartcar_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[8.231021] (-) TimerEvent: {}
+[8.312755] (smartcar_msgs) StdoutLine: {'line': b'[ 80%] Built target smartcar_msgs__rosidl_generator_py\n'}
+[8.331237] (-) TimerEvent: {}
+[8.339213] (smartcar_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/smartcar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/smartcar_msgs/_smartcar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.339737] (smartcar_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/smartcar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/smartcar_msgs/_smartcar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.341782] (smartcar_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/smartcar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/smartcar_msgs/_smartcar_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.431486] (-) TimerEvent: {}
+[8.498039] (smartcar_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/smartcar_msgs/smartcar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.503771] (smartcar_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/smartcar_msgs/smartcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.504311] (smartcar_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/smartcar_msgs/smartcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.531656] (-) TimerEvent: {}
+[8.632297] (-) TimerEvent: {}
+[8.643484] (smartcar_msgs) StdoutLine: {'line': b'[100%] Built target smartcar_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[8.643906] (smartcar_msgs) StdoutLine: {'line': b'[100%] Built target smartcar_msgs__rosidl_typesupport_c__pyext\n'}
+[8.669912] (smartcar_msgs) StdoutLine: {'line': b'[100%] Built target smartcar_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.687518] (smartcar_msgs) CommandEnded: {'returncode': 0}
+[8.732523] (-) TimerEvent: {}
+[8.790521] (smartcar_msgs) JobProgress: {'identifier': 'smartcar_msgs', 'progress': 'install'}
+[8.792288] (smartcar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ros2_ws/build/smartcar_msgs'], 'cwd': '/home/ros2/ros2_ws/build/smartcar_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('GIT_ASKPASS', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('TERM_PROGRAM_VERSION', '1.96.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ed214bbe-36d4-4277-bd5b-13a4d1a1ad70.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('NAME', 'LAPTOP-2KK2I5AE'), ('WSL_INTEROP', '/run/WSL/26702_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/home/ros2/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros2/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/bin/remote-cli:/home/ros2/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/MATLAB/runtime/win64:/mnt/c/MATLAB/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/FATHYM/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/FATHYM/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/FATHYM/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/FATHYM/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/FATHYM/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/ros2/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-54850e98de.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2/ros2_ws/build/smartcar_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.802409] (smartcar_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.803510] (smartcar_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.805678] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/ament_index/resource_index/rosidl_interfaces/smartcar_msgs\n'}
+[8.820630] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__functions.h\n'}
+[8.832001] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__struct.h\n'}
+[8.832760] (-) TimerEvent: {}
+[8.844189] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__type_support.h\n'}
+[8.857236] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.870438] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/status.h\n'}
+[8.884198] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/environment/library_path.sh\n'}
+[8.895360] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/environment/library_path.dsv\n'}
+[8.907533] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h\n'}
+[8.918727] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.930448] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__builder.hpp\n'}
+[8.932945] (-) TimerEvent: {}
+[8.942685] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__struct.hpp\n'}
+[8.957264] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__traits.hpp\n'}
+[8.969524] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/status.hpp\n'}
+[8.981562] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.993144] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.005207] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h\n'}
+[9.017511] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.029928] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/include/smartcar_msgs/smartcar_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.033143] (-) TimerEvent: {}
+[9.042078] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/environment/pythonpath.sh\n'}
+[9.055851] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/environment/pythonpath.dsv\n'}
+[9.069682] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.081301] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.092481] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.103915] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.118914] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/__init__.py\n'}
+[9.129967] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/_smartcar_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[9.133359] (-) TimerEvent: {}
+[9.141056] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/_smartcar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.155777] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/_smartcar_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.167756] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/libsmartcar_msgs__rosidl_generator_py.so\n'}
+[9.179205] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/msg/__init__.py\n'}
+[9.191614] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/msg/_status.py\n'}
+[9.203597] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/msg/_status_s.c\n'}
+[9.214320] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/smartcar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.226661] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/smartcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.233551] (-) TimerEvent: {}
+[9.238198] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/smartcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.251952] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/smartcar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.252656] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/smartcar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.253492] (smartcar_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/smartcar_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.254901] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/msg/Status.idl\n'}
+[9.266399] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/msg/Status.msg\n'}
+[9.278425] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/ament_index/resource_index/package_run_dependencies/smartcar_msgs\n'}
+[9.291971] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/ament_index/resource_index/parent_prefix_path/smartcar_msgs\n'}
+[9.303072] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/environment/ament_prefix_path.sh\n'}
+[9.314948] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/environment/ament_prefix_path.dsv\n'}
+[9.326814] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/environment/path.sh\n'}
+[9.333745] (-) TimerEvent: {}
+[9.338247] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/environment/path.dsv\n'}
+[9.352243] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/local_setup.bash\n'}
+[9.363914] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/local_setup.sh\n'}
+[9.377737] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/local_setup.zsh\n'}
+[9.391569] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/local_setup.dsv\n'}
+[9.407820] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/package.dsv\n'}
+[9.422388] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/ament_index/resource_index/packages/smartcar_msgs\n'}
+[9.433959] (-) TimerEvent: {}
+[9.435621] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[9.448014] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.463752] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.475748] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.488146] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.499673] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.514388] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.527007] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgsConfig.cmake\n'}
+[9.534167] (-) TimerEvent: {}
+[9.538357] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgsConfig-version.cmake\n'}
+[9.550356] (smartcar_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/package.xml\n'}
+[9.563382] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_generator_c.so\n'}
+[9.564105] (smartcar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_generator_c.so" to ""\n'}
+[9.564907] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[9.565100] (smartcar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.565194] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.565704] (smartcar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.566440] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_typesupport_introspection_c.so\n'}
+[9.567052] (smartcar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.567164] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_typesupport_c.so\n'}
+[9.567635] (smartcar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_typesupport_c.so" to ""\n'}
+[9.568113] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[9.568743] (smartcar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.569260] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_typesupport_cpp.so\n'}
+[9.569474] (smartcar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[9.614504] (smartcar_msgs) StdoutLine: {'line': b"Listing '/home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs'...\n"}
+[9.614910] (smartcar_msgs) StdoutLine: {'line': b"Compiling '/home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/__init__.py'...\n"}
+[9.615028] (smartcar_msgs) StdoutLine: {'line': b"Listing '/home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/msg'...\n"}
+[9.615173] (smartcar_msgs) StdoutLine: {'line': b"Compiling '/home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/msg/__init__.py'...\n"}
+[9.615312] (smartcar_msgs) StdoutLine: {'line': b"Compiling '/home/ros2/ros2_ws/install/smartcar_msgs/local/lib/python3.10/dist-packages/smartcar_msgs/msg/_status.py'...\n"}
+[9.622200] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_generator_py.so\n'}
+[9.623345] (smartcar_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/install/smartcar_msgs/lib/libsmartcar_msgs__rosidl_generator_py.so" to ""\n'}
+[9.623786] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/export_smartcar_msgs__rosidl_generator_cExport.cmake\n'}
+[9.624081] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/export_smartcar_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.624555] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/export_smartcar_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.624712] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/export_smartcar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.624822] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/export_smartcar_msgs__rosidl_generator_cppExport.cmake\n'}
+[9.625223] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/export_smartcar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.625391] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/export_smartcar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.625720] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.626237] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.626593] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgs__rosidl_typesupport_cExport.cmake\n'}
+[9.627018] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.627298] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.627610] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.628052] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[9.628499] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/smartcar_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.629118] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/export_smartcar_msgs__rosidl_generator_pyExport.cmake\n'}
+[9.629352] (smartcar_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/install/smartcar_msgs/share/smartcar_msgs/cmake/export_smartcar_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.634055] (smartcar_msgs) CommandEnded: {'returncode': 0}
+[9.634662] (-) TimerEvent: {}
+[9.735493] (-) TimerEvent: {}
+[9.763638] (smartcar_msgs) JobEnded: {'identifier': 'smartcar_msgs', 'rc': 0}
+[9.767010] (-) EventReactorShutdown: {}

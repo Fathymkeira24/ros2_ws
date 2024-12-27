@@ -1,0 +1,1 @@
+/home/ros2/ros2_ws/build/smartcar_msgs/rosidl_generator_py/smartcar_msgs/__init__.py

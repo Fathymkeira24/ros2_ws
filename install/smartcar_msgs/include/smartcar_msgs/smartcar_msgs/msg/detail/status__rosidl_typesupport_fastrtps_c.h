@@ -1,0 +1,1 @@
+/home/ros2/ros2_ws/build/smartcar_msgs/rosidl_typesupport_fastrtps_c/smartcar_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h

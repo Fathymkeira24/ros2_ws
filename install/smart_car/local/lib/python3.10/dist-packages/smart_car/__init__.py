@@ -1,0 +1,1 @@
+/home/ros2/ros2_ws/src/smart_car/smart_car/__init__.py
